@@ -1,0 +1,38 @@
+$fontFamily: "SFProDisplay";
+$fontFamily2: "InkFree";
+$fontFamily3: "SF Pro Display";
+$colorBlack: #000;
+$colorWhite: #fff;
+$colorGreen: #00a344;
+$greenBg: #00a344;
+$orangeBg: #ffcd00;
+
+.header-container {
+  max-width: 1730px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  @media (max-width: 1680px) {
+    max-width: 1480px;
+    width: 100%;
+  }
+  @media (max-width: 1440px) {
+    max-width: 1200px;
+    width: 100%;
+  }
+}
+.container {
+  max-width: 1320px;
+  width: 100%;
+}
+.card-block {
+  .row {
+    --bs-gutter-x: 1.9rem;
+  }
+}
+.m-b-15 {
+  margin-bottom: 15px;
+}
+.m-b-40 {
+  margin-bottom: 40px;
+}
